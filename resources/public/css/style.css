@@ -1,0 +1,23 @@
+table.board td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 10px;
+    height: 10px;
+}
+
+table.board {
+    border-collapse: collapse;
+    border-spacing: 0.5rem;
+}
+
+td.player {
+    background-color: blue;
+}
+
+td.cell {
+    background-color: white;
+}
+
+td.bonus {
+    background-color: brown;
+}
