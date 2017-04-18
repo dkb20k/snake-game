@@ -15,3 +15,18 @@
   :board-size
   (fn [db _]
     (:board-size db)))
+
+(re-frame/reg-sub
+  :score
+  (fn [db _]
+    (:score db)))
+
+(re-frame/reg-sub
+  :max-score
+  (fn [db _]
+    (:max-score db)))
+
+(re-frame/reg-sub
+  :game-state
+  (fn [db _]
+    (:game-state db)))
